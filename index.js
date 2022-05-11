@@ -8,9 +8,7 @@ const port = process.env.PORT || 5000;
 app.use(cors())
 app.use(express.json())
 
-
 //-------
-
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.evz2z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 console.log(uri);
 
